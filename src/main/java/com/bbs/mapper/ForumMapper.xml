@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="com.bbs.mapper.ForumMapper">
+    <select id="findForum"  parameterType="string" resultType="com.bbs.model.Forum">
+    select * from forum where forumType=#{0} Order by forumSort Desc,forumTime Desc  limit #{1},#{2}
+    </select>  
+    <insert id="addForum" parameterType="com.bbs.model.Forum">
+		insert into forum(forumTitle,forumUserid,forumContent,forumType,forumHeat,forumSort)
+		values(#{forumTitle},#{forumUserid},#{forumContent},#{forumType},#{forumHeat},#{forumSort})
+	</insert>
+    <delete id="deleteforum" parameterType="string">
+	delete from forum where forumId=#{forumId}
+	</delete>
+	<delete id="deleteAllReply" parameterType="string">
+	delete from reply where replyForumid=#{forumId}
+	</delete>
+    <update id="topforum" parameterType="string" >
+	update forum set forumSort=1 where forumId=#{forumId}
+	</update>
+    
+  </mapper>

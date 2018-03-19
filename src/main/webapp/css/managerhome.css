@@ -1,0 +1,64 @@
+.managertop {
+	margin: 20px auto;
+	border-bottom: 2px dashed darkgray;
+	width: 825px;
+	height: 30px;
+}
+
+.managertop span {
+	font-size: 18px;
+	font-weight: 600;
+	position: relative;
+	top: -10px;
+}
+
+.managertop img {
+	width: 50px;
+	height: 30px;
+}
+
+.managerdiv {
+	width: 825px;
+	height: 350px;
+	margin: 0px auto;
+	border: 2px solid black;
+}
+
+.manageruser {
+	width: 780px;
+	height: 400px;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+.manageruser p {
+	font-size: 14;
+	font-weight: 600;
+	border-bottom: 2px dashed black;
+}
+
+.manageruser_1 {
+	margin-top: 10px;
+	width: 780px;
+	height: 400px;
+}
+
+
+.table {
+	border-collapse: collapse;
+	line-height: 25px;
+	text-align: center;
+	padding: 2px;
+}
+
+table,
+table tr th,
+table tr td {
+	border: 1px solid darkgray;
+}
+.page{
+	width: 100px;
+	height: 30px;
+	border: 1px solid red;
+	position: relative;left: 600px;top:210px;
+}

@@ -1,0 +1,156 @@
+.imgtop {
+	margin: 0px auto;
+	margin-top: 20px;
+	border-bottom: 2px dashed darkgray;
+	width: 825px;
+	height: 30px;
+}
+
+.imgtop span {
+	font-size: 18px;
+	font-weight: 600;
+	position: relative;
+	top: -10px;
+}
+
+.imgtop img {
+	width: 30px;
+	height: 30px;
+}
+.imgtop a{
+	font-size: 14px;
+	font-weight: 600;
+	position: absolute;top: 325px;right: 260px;
+	color: #075385;
+	border-radius: 10px;
+	display: inline-block;
+	border: 1px solid #075385;
+	width: 80px;
+	text-align: center;
+}
+.imgtop a:hover {
+	background-color: #7FCCEA;
+	color: white;
+	border: 1px solid #7FCCEA;
+}
+.tiezi {
+	width: 825px;
+	height: 605px;
+	position: relative;
+	top: 20px;
+	left: 35px;
+	overflow: hidden;
+}
+/* .page{
+	width: 300px;
+	height: 30px;
+	border: 1px solid red;
+	position: absolute;left: 500px;top:580px;
+} */
+.table {
+	border-collapse: collapse;
+	line-height: 40px;
+	padding: 2px;
+	table-layout: fixed;
+	width: 100%;
+	text-align:center;
+}
+.td1{
+	text-align: left;
+}
+table,
+table tr th,
+table tr td {
+	height: 40px;
+	border: 1px solid darkgray;
+	font-size: 14px;
+}
+
+.table td {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.table img {
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+}
+
+.table a {
+	cursor: hand;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #333333;
+}
+
+.table a:hover {
+	cursor: hand;
+	color: red;
+}
+
+.page_all {
+	margin: 15px 0;
+}
+
+.page {
+	margin: 0px auto;
+	width: 350px;
+	float: right;
+}
+
+.page ul li {
+	float: left;
+	margin-left: 10px;
+}
+
+.page ul li a {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #5c5c5c;
+	display: block;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #e3e3e3;
+	background-color: #eeeeee;
+	text-align: center;
+	line-height: 22px;
+}
+
+.page ul li a span.arrow_left {
+	display: block;
+	width: 5px;
+	height: 8px;
+	background: url(../img/arrow_left.png) 0 0 no-repeat;
+	margin: 7px 0 0 9px;
+}
+
+.page ul li a span.arrow_right {
+	display: block;
+	width: 5px;
+	height: 8px;
+	background: url(../img/arrow_right.png) 0 0 no-repeat;
+	margin: 7px 0 0 10px;
+}
+
+.page ul li a:hover {
+	background-color: #F06526;
+	border: 1px solid #F06526;
+	color: #ffffff;
+}
+
+.page ul li.page_active a {
+	background-color: #F06526;
+	border: 1px solid #F06526;
+	color: #ffffff;
+}
+
+.page ul li a:hover span.arrow_left {
+	background: url(../img/arrow_left_hover.png) 0 0 no-repeat;
+}
+
+.page ul li a:hover span.arrow_right {
+	background: url(../img/arrow_right_hover.png) 0 0 no-repeat;
+}
+

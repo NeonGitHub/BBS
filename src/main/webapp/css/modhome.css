@@ -1,0 +1,45 @@
+.mod {
+	
+	width: 820px;
+	height: 310px;
+	margin: 40px auto;
+}
+.modleft {
+	width: 300px;
+	height: 100%;
+	display: inline-block;
+	border: 1px solid #CCCCCC;
+	background-color: #FAFBFC;
+}
+
+.modicon {
+	border: 1px dashed black;
+	width: 80px;
+	height: 80px;
+	margin: 10px auto;
+}
+.modicon img{
+	width: 80px;
+	height: 80px;
+}
+.modinfo {
+	width: 150px;
+	height: 200px;
+	margin: 0px auto;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.modright {
+	width: 500px;
+	height: 100%;
+	float: right;
+	border: 1px solid #CCCCCC;
+	background-color: #FAFBFC;
+}
+.modright1{
+	width: 300px;
+	height: 200px;
+	margin: 50px auto;
+}

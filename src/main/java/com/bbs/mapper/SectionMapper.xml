@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bbs.mapper.SectionMapper">
+	<select id="findSection" resultType="com.bbs.model.Section">
+		select * from section
+	</select>
+
+	<select id="findSectionForum"    parameterType="string" resultType="int">
+		select count(*) from forum where forumType=#{forumType}
+	</select>
+
+</mapper>
